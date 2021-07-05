@@ -22,3 +22,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+截图示例：
+
+
+
+仍在开发中，目前只完成了站点原型。Under construction.
+
+

@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navigation></Navigation>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navigation from "@/components/Navigation";
 
 export default {
   name: 'App',
+  data(){
+    return {
+
+    }
+  },
   components: {
-    HelloWorld
+    Navigation,
   }
 }
 </script>
@@ -23,6 +28,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+
+}
+body{
+  background-image:url('assets/Bismarck.jpg');
+  background-position: center;
+  background-attachment:fixed;
+  background-size: 100%;
+}
+a:visited{
+  color: white;
 }
 </style>
