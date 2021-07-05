@@ -24,6 +24,7 @@ export default {
   cursor: pointer;
   font-weight: bold;
   background-color: #1c1c1c;
+  z-index: 2;
 }
 .navi_link{
   text-decoration: none;

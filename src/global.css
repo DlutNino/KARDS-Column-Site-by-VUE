@@ -1,0 +1,12 @@
+.navigation {
+    z-index: 2;
+}
+.part {
+    z-index: 2;
+}
+.navi_option {
+    z-index: 2;
+}
+.part_menu {
+    z-index: 1;
+}

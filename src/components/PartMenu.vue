@@ -43,7 +43,9 @@ export default {
   border-radius: 6px;
   background-color: #1c1c1c;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  z-index: 0;
+  //justify-content: space-around;
   //align-items: center;
 }
 .menu_link{
@@ -51,5 +53,6 @@ export default {
   color: white;
   font-weight: bold;
   font-size: 1.2em;
+  flex: 1 1 33.3%;
 }
 </style>
