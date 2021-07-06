@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import PartMenu from "@/components/PartMenu";
 import CardAnalyze from "@/components/CardAnalyze";
+import Deck from "@/components/Deck";
 
 Vue.use(VueRouter);
 
@@ -14,7 +15,7 @@ const routes = [
                 {router_link: 'extra_draw/lurking_danger', title: '潜在危险'}],
         },
     },
-    { path: '/kredit_operation',
+    {   path: '/kredit_operation',
         component: PartMenu,
         props: {
             link_list: [{router_link: 'kredit_operation/the_war_machine', title: '战争机器'},
@@ -48,6 +49,19 @@ const routes = [
             img_link: require('../static/lurking_danger.png'),
             text_content: "在改版之后，潜在危险的可用性有所提升",
         }
+    },
+    {
+        path: '/kredit_operation/the_war_machine',
+        component: CardAnalyze,
+        props: {
+            img_link: require('../static/the_war_machine.png'),
+            text_content: "2费跳1，无抉择无直接附加效果，如果无法配合军需营就无法立即兑现收益（地狱俯冲者？那是什么能吃吗），又不能像战争债券一样补牌，导致战争机器在后期极易成为鬼抽. " +
+                "目前在盟美的跳费卡组中，大多数玩家不携带战争机器，而是用更加灵活的航母掩护代替，但是主美的跳费卡组我依然建议携带2~3张，对于节奏型打法甚至完全可以拉满. ",
+        }
+    },
+    {
+        path: '/soviet_britain_control',
+        component: Deck,
     }
 ];
 

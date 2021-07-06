@@ -30,12 +30,6 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-}
 .part_menu{
   width: 50%;
   margin: 60px 25% 24px 25%;
@@ -45,8 +39,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   z-index: 0;
-  //justify-content: space-around;
-  //align-items: center;
+
 }
 .menu_link{
   text-decoration: none;

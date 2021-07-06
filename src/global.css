@@ -10,3 +10,9 @@
 .part_menu {
     z-index: 1;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}

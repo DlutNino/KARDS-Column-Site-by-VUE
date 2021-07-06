@@ -33,12 +33,6 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-}
 .card_analyze{
   display: flex;
   justify-content: space-around;
