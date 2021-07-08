@@ -3,7 +3,7 @@
     <div class="article">
       <h2 class="article_title">{{title}}</h2>
       <h3 class="article_author">{{author}}</h3>
-      <p v-for="item in content" :key="item.id"></p>
+      <p v-for="item in content" :key="item.id">{{item.text}}</p>
     </div>
     <WarpBack></WarpBack>
   </div>

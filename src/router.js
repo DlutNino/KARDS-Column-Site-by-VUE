@@ -148,7 +148,21 @@ const routes = [
         path: '/soviet_britain_control',
         component: Deck,
         props: {
-
+            title: '控制流苏-英',
+            cards: [{num: 1, kredit: 1, name: '赤色黎明'}, {num: 3, kredit: 1, name: '血红的镰刀'},
+                {num: 2, kredit: 1, name: '乌拉尔工厂'}, {num: 1, kredit: 1, name: '红色旗帜'},
+                {num: 1, kredit: 1, name: '工兵第329营'}, {num: 1, kredit: 2, name: '间谍组织'},
+                {num: 1, kredit: 2, name: '雅克-7'}, {num: 1, kredit: 2, name: '苏联英雄'},
+                {num: 3, kredit: 2, name: '步兵第845团'}, {num: 2, kredit: 2, name: '伊-15 海鸥'},
+                {num: 1, kredit: 3, name: '阅兵'}, {num: 2, kredit: 3, name: '混乱'},
+                {num: 1, kredit: 3, name: 'T-28'}, {num: 2, kredit: 4, name: '以剑之名'},
+                {num: 2, kredit: 4, name: 'T-60'}, {num: 1, kredit: 5, name: 'BP-43装甲列车'},
+                {num: 1, kredit: 6, name: 'KV-1 1941'}, {num: 1, kredit: 6, name: '海军步兵第83旅'},
+                {num: 1, kredit: 6, name: '游击队'}, {num: 1, kredit: 8, name: '拖拉机厂'},
+                {num: 1, kredit: 9, name: '近卫步兵第272团'}, ],
+            cards_ally: [{num: 1, kredit: 2, name: '国家消防局'}, {num: 2, kredit: 3, name: '空军力量'},
+                        {num: 2, kredit: 4, name: '锡福斯高地人团'}, {num: 1, kredit: 4, name: '战争迷雾'},
+                        {num: 2, kredit: 7, name: '地毯式轰炸'},]
         }
     },
     {
@@ -157,7 +171,11 @@ const routes = [
         props: {
             title: '面向萌新的常见游戏理解误区',
             author: 'AndyEzreal#2467',
-            content: "",
+            content: [{text: "四月间，天气寒冷晴朗，钟敲了十三下。温斯顿史密斯为了要躲寒风，紧缩着脖子，很快地溜进了胜利大厦的玻璃门，不过动作不够迅速，没有能够防止一阵沙土跟着他刮进了门。" +
+                    "门厅里有一股熬白菜和旧地席的气味。门厅的一头，有一张彩色的招贴画钉在墙上，在室内悬挂略为嫌大了一些。" +
+                    "画的是一张很大的面孔，有一米多宽：这是一个大约四十五岁的男人的脸，留着浓密的黑胡子，面部线条粗犷英俊。温斯顿朝楼梯走去。用不着试电梯。即使最顺利的时候，电梯也是很少开的，现在又是白天停电。这是为了筹备举行仇恨周而实行节约。温斯顿的住所在七层楼上，他三十九岁，右脚脖子上患静脉曲张，因此爬得很慢，一路上休息了好几次。每上一层楼，正对着电梯门的墙上就有那幅画着很大脸庞的招贴画凝视着。这是属于这样的一类画，你不论走到哪里，画面中的眼光总是跟着你。下面的文字说明是：老大哥在看着你。"},
+                {text: "--------------------------------测试排版，换行，留白，溢出-------------------------------------------------------"},
+                {text: "反转了，我也是萌新捏"}],
         }
     }
 ];
